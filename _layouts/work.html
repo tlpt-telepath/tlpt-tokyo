@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article class="work">
+  <header class="work-header">
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="work-description">{{ page.description }}</p>
+    {% endif %}
+    
+    {% if page.link %}
+      <p class="external-link">
+        <a href="{{ page.link }}" target="_blank">リンク</a>
+      </p>
+    {% endif %}
+  </header>
+
+  <div class="work-content">
+    {{ content }}
+  </div>
+</article> 

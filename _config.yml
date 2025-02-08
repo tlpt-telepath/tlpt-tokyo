@@ -1,0 +1,35 @@
+title: tlpt.tokyo
+description: tlptのサイト
+baseurl: ""
+url: ""
+
+# GitHubリポジトリ設定
+repository: tlpt/tlpt-tokyo    # あなたのGitHubユーザー名/リポジトリ名
+
+# ビルド設定
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 除外ファイル
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# ブログの設定
+permalink: /blog/:year/:month/:day/:title/
+
+# コレクションの設定
+collections:
+  works:
+    output: true
+    permalink: /works/:title/
+
+# ナビゲーションリンク
+header_pages:
+  - about.md
+  - works.md 
