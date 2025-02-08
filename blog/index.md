@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: blog
 title: ブログ記事一覧
-permalink: /blog/
 ---
 
 <div class="post-list">

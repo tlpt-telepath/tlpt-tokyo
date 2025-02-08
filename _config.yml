@@ -21,7 +21,7 @@ exclude:
   - vendor
 
 # ブログの設定
-permalink: /blog/:year/:month/:day/:title/
+permalink: /:categories/:year/:month/:day/:title/
 
 # コレクションの設定
 collections:
