@@ -4,7 +4,7 @@ baseurl: ""
 url: "https://tlpt-telepath.github.io"
 
 # GitHubリポジトリ設定
-repository: tlpt/tlpt-tokyo    # あなたのGitHubユーザー名/リポジトリ名
+repository: tlpt-telepath/tlpt-tokyo    # あなたのGitHubユーザー名/リポジトリ名
 
 # ビルド設定
 markdown: kramdown
