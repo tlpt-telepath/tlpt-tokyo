@@ -9,4 +9,6 @@ gem "minima"
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1"
   gem "tzinfo-data"
-end 
+end
+
+ruby '~> 2.7.0' 
