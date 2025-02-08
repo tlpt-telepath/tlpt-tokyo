@@ -1,7 +1,7 @@
 title: tlpt.tokyo
 description: tlptのサイト
 baseurl: ""
-url: ""
+url: "https://tlpt-telepath.github.io"
 
 # GitHubリポジトリ設定
 repository: tlpt/tlpt-tokyo    # あなたのGitHubユーザー名/リポジトリ名
