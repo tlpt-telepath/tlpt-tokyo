@@ -7,7 +7,7 @@ title: ホーム
 
 - [プロフィール]({{ '/about' | relative_url }})
 - [作ったもの]({{ '/works' | relative_url }})
-- [ブログ](./blog/)
+- [ブログ]({{ '/blog' | relative_url }})
 
 ## 最近の記事(ブログ)
 
@@ -15,7 +15,7 @@ title: ホーム
   {% for post in site.posts limit:5 %}
     <div class="post-item">
       <h3>
-        <a href="{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h3>
       <span class="post-date">{{ post.date | date: "%Y年%m月%d日" }}</span>
     </div>
@@ -23,5 +23,5 @@ title: ホーム
 </div>
 
 <p class="view-all">
-  <a href="/blog/" class="view-all-link">全ての記事を見る</a>
+  <a href="{{ '/blog' | relative_url }}" class="view-all-link">全ての記事を見る</a>
 </p> 
