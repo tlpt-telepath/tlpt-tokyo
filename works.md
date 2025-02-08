@@ -1,19 +1,20 @@
 ---
-layout: page
-title: 作ったもの
+layout: default
+title: 作品
 permalink: /works/
 ---
 
+<h1>作品一覧</h1>
+
 <div class="works-list">
   {% for work in site.works %}
-    <div class="work-item">
-      <h3>
-        <a href="{{ work.url }}">{{ work.title }}</a>
-      </h3>
+    <article class="work-preview">
+      <h2>
+        <a href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a>
+      </h2>
       {% if work.description %}
-        <p class="work-description">{{ work.description }}</p>
+        <p>{{ work.description }}</p>
       {% endif %}
-      <span class="work-date">{{ work.date | date: "%Y年%m月" }}</span>
-    </div>
+    </article>
   {% endfor %}
 </div> 
