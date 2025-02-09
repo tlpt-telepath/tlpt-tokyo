@@ -4,7 +4,6 @@ title: "ポートフォリオサイト"
 date: 2025-02-10
 description: "Jekyll を使用した個人サイト"
 link: https://tlpt-telepath.github.io/tlpt-tokyo/
-permalink: portfolio-site/
 ---
 
 このサイト。GitHub Pagesでホスティングしています。  
