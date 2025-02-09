@@ -8,7 +8,7 @@ permalink: /blog/
   {% for post in site.posts %}
     <div class="post-item">
       <h3>
-        <a href="{{ site.baseurl }}/blog/{{ post.date | date: '%Y/%m/%d' }}/{{ post.title | slugify }}">{{ post.title }}</a>
+        <a href="{{ site.baseurl }}/blog/{{ post.date | date: '%Y/%m/%d' }}/website-creation">{{ post.title }}</a>
       </h3>
       <span class="post-date">{{ post.date | date: "%Y年%m月%d日" }}</span>
     </div>

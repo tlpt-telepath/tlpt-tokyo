@@ -10,7 +10,7 @@ permalink: /works/
   {% for work in site.works %}
     <article class="work-preview">
       <h2>
-        <a href="{{ site.baseurl }}/works/portfolio-site">{{ work.title }}</a>
+        <a href="{{ site.baseurl }}/works/{{ work.path | split: '/' | last | split: '.' | first }}">{{ work.title }}</a>
       </h2>
       {% if work.description %}
         <p>{{ work.description }}</p>
