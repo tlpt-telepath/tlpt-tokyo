@@ -27,7 +27,7 @@ permalink: /blog/:year/:month/:day/:title/
 collections:
   works:
     output: true
-    permalink: /:collection/:path/
+    permalink: /works/:permalink/
 
 # ナビゲーションリンク
 header_pages:
