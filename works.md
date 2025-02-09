@@ -10,7 +10,7 @@ permalink: /works/
   {% for work in site.works %}
     <article class="work-preview">
       <h2>
-        <a href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a>
+        <a href="{{ site.baseurl }}{{ work.url }}">{{ work.title }}</a>
       </h2>
       {% if work.description %}
         <p>{{ work.description }}</p>
